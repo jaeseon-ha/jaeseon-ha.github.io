@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="color-scheme" content="light dark">
-  
-  <title>404</title>
-  <link rel="icon" type="image/png" sizes="32x32" href="https://jaeseon-ha.github.io/img/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="https://jaeseon-ha.github.io/img/favicon-16x16.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="https://jaeseon-ha.github.io/img/apple-touch-icon.png">
-  
-  <style>
+<style>
 
   /* light mode colors */
   body {
@@ -71,34 +57,3 @@
   }
 
 </style>
-
-  <link rel="stylesheet" href="https://jaeseon-ha.github.io/main.css">
-  
-  
-</head>
-
-<body class="not-found">
-  
-  <script>
-    const theme = sessionStorage.getItem('theme');
-    const match = window.matchMedia("(prefers-color-scheme: dark)").matches
-    if ((theme && theme == 'dark') || (!theme && match)) {
-      document.body.classList.add('dark');
-      const hl = document.querySelector('link#hl');
-      if (hl) hl.href = 'https://jaeseon-ha.github.io/hl-dark.css';
-    }
-  </script>
-  
-  
-<div class="wrapper">
-  <p class="error">
-    404 Not Found
-  </p>
-  <a class="instant" href="https://jaeseon-ha.github.io">« back to home »</a>
-</div>
-
-  
-  <script src="https://jaeseon-ha.github.io/js/main.js"></script>
-</body>
-
-</html>

@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-Allow: /
-Sitemap: https://jaeseon-ha.github.io/sitemap.xml
